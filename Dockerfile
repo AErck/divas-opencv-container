@@ -1,7 +1,7 @@
 From mikebirdgeneau/jupyterlab
 
-RUN apt-get update && \ 
-        apt-get install -y \
+RUN apk update && \ 
+        apk add -y \
         build-essential \
         cmake \
         git \
