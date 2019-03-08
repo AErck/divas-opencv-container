@@ -1,7 +1,7 @@
 From mikebirdgeneau/jupyterlab
 
 RUN apk update && \ 
-        apk add -y \
+        apk add\
         build-essential \
         cmake \
         git \
